@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# CatBoost generated files
+catboost_info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary / generated files
+notebook_output.txt
+nb_cells.txt
+nb_code.py
+
+# Scratch / development
+scratch/
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+.vscode/
+
+# Large/local datasets
+# Uncomment these if your dataset is private/proprietary
+# data/*.csv
+# data/*.parquet
+# data/*.xlsx
